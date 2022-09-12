@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+    *{
+      margin: 0px;
+      padding: 0px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    body{
+      background-color: rgb(231, 231, 178);
+    }
+    h1{
+      color: green;
+      text-align: center;
+    }
+    p{
+      margin: 10px 20px;
+      text-indent: 20px;
+      text-align: justify;
+    }
+    div#escopo{
+      width: 600px;
+      background-color: lightgreen;
+      margin: auto;
+      padding: 20px;
+    }
+    section{
+      width: 400px;
+      padding: 20px;
+      margin: auto;
+      text-align: center;
+    }
+    section > input{
+      display: block;
+    }
+    div#escopo>ul>li{
+      padding: 2px;
+      margin: 2px 20px 5px 40px;
+    }
+    section>div#analise{
+      background-color: rgb(123, 173, 207);
+      color: black;
+      width: 400px;
+      height: 200px;
+      border: 2px solid black;
+    }
