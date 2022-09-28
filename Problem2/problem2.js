@@ -1,6 +1,6 @@
 /**
  * @param {string} : String to be tested for validity
- * @return {boolean} : Retruns true if the string is vald else false
+ * @return {boolean} : Returns true if the string is vald else false
  */
 var isValid = function(s){
 let a=[];
@@ -24,7 +24,7 @@ var cc=0;
 var cch=0;
 a=[];
 // Verificar a ordem dos caracteres
-for( i=0;i<=(s.length); i++){
+for( i=0;i<=(s.length)-1; i++){
 a=s[i]
   switch (a){
     case '(':
@@ -63,6 +63,6 @@ if ((cc==0) && (cch==0) && (cp==0)){result=true};
 return result;
 };
 
-let s=['(','}','{',']','[',')'];
+let s=['(','{','[',']','}',')'];
 if (isValid(s)) console.log("valid");
 else console.log("invalid");
